@@ -1,0 +1,16 @@
+# Secrets - never commit this
+.env
+
+# Virtual environment
+.venv/
+
+# Downloaded blobs and generated state
+downloads/
+vector_store_state.json
+
+# Python housekeeping
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
